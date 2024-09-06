@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+   <h1>Inventory Management System</h1>
+</header>
+   <main>
+    <table id="productTable">
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+       <tbody id="productTableBody"></tbody>
+    </table>
+
+    <h2> Add New Product</h2>
+    <form>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required>
+        <button id="addProductButton" type="button">Add Product</button>
+    </form>
+   </main>   
+   <footer>
+   <p>Created By Ahmed Yar Khan</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
